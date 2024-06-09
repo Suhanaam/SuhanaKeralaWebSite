@@ -200,18 +200,30 @@ Kerala awaits you with open arms. Come, explore, and fall in love with this ench
     
     <fieldset bgcolor="#0f0f0f"><legend><h1 style="color: blueviolet;">Book your Tickets</h1></legend>
     <center><label for="name">Please Enter your full name</label>
-    <input type="text" name="name" id="">
+    <input type="text" name="name" id="" required pattern="[A-Za-z/s]*" title="name should be capital and small letter">
     <br><br>
     <label for="email">enter Your email</label>
-    <input type="text" name="email" id="">
+    <input type="email" name="email" placeholder="eg like s@gmail.com" required>
     <br><br>
     <label for="name"> enter your phone number</label>
-    <input type="number" name="name" id="">
+    <input type="number" name="name" id="" required pattern="\d{10}">
     <br><br>
     <label for="">Choose your location</label>
-    <select name="districts" id="">
+    <select name="districts" id="" required>
         <option value="">alapuzha</option>
-        <option value=""></option>
+        <option value="">pathanam thitta</option>
+        <option value="">calicut</option>
+        <option value="">kannur</option>
+        <option value="">kasarkode</option>
+        <option value="">malappuram</option>
+        <option value="">palakkkad</option>
+        <option value="">eranakulam</option>
+        <option value="">idukki</option>
+        <option value="">kollam</option>
+        <option value="">kottayam</option>
+        <option value="">thiruvananthapuram</option>
+        <option value="">thrissur</option>
+        <option value="">wayanad</option>
     </select>
     <br><br>
 <button type="submit">Ticket..</button>
