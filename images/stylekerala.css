@@ -1,0 +1,89 @@
+
+        .kt{
+            background-image: url('keralakayal.jpg');
+            height: 30.25rem;
+            width: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            color:antiquewhite;
+            position: relative;
+        }
+      label
+      {
+      color: blue;
+      }
+      .about
+      {
+        color:#006400;
+        background-color:#F0E68C;
+      }
+      .li
+      {
+        color:#006400;
+      }
+      * {
+           padding: 0;
+           margin: 0;
+           text-align: center;
+           
+        }
+        #come {
+          color: #f5f5dc;
+            box-shadow: inset;
+            height: 20rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: xx-large;
+            font-weight: 800;
+            position:absolute;
+            top: 200px;
+            left: 500px;
+
+      }
+      .b
+      {
+        background-color: coral;
+        border-radius: 12px;
+        padding: 10px 20px;
+        text-shadow: #006400;
+        color: black;
+        box-shadow: inset;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: larger;
+        font-weight:400 ;
+      }
+      .grid
+     {
+       display: grid;
+       grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+       justify-content: end;
+      }
+      .item
+      {
+        text-align: center;
+        padding: 20px;
+
+      }
+      .grid2
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .item2
+      {
+        text-align: center;
+        padding:10px;
+        box-shadow: inset;
+        
+      }
+      .grid3
+      {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+      }
+      .item3
+      {
+        text-align: center;
+        padding: 10px;
+      }
